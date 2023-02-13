@@ -1,0 +1,22 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#sidebar-container{
+    background-color: #E4E9F5;
+
+}
+#sidebar-items{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100px;
+    gap: 50px;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0px;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: white;
+}
+
