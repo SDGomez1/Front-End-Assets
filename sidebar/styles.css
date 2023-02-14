@@ -19,4 +19,29 @@ body{
     align-items: center;
     background-color: white;
 }
+.sidebar-item {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    display: flex;
+}
 
+.sidebar-item:hover {
+    color: white;
+    background-color: black;
+    animation-duration: 1s;
+    animation-name: hover_transition;
+}
+
+@keyframes hover_transition {
+    0% {
+        color: black;
+        background-color: white;
+    }
+    50% {
+        color: white;
+        background-color: black;
+    }
+
+
+}
