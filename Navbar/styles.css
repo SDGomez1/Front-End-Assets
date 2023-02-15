@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E4E9F5;
+}
+#navbar-container{
+    display: flex;
+    justify-content: center;
+}
+#navbar-items{
+    margin: 0;
+    padding: 20px 0px;
+    width: 1000px;
+    display: flex;
+    list-style: none;   
+    justify-content: center;
+    position: relative;
+    left: 80px;
+
+
+}
+.navbar-item{
+    padding: 10px 40px;
+    text-align: center;
+    width: 200px;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 20px 0px 0px 20px;
+    transition: 0.2s;
+    cursor: pointer;
+    height: 40px;
+
+}
+
+
+#item-home{
+    background-color: #68B028;
+    position: relative;
+}
+#item-home:hover{
+    transform: translateX(-5px);
+}
+#item-about{
+    background-color: #0D8639;
+    position: relative;
+    left: -40px;
+    
+}
+#item-about:hover{
+    transform: translateX(-5px);
+
+}
+
+#item-shop{
+    background-color: #FBC109;
+    position: relative;
+    left: -80px;
+    
+}
+#item-shop:hover{
+    transform: translateX(-5px);
+
+}
+#item-contact{
+    background-color: #E62D82;
+    position: relative;
+    left: -120px;
+    
+}
+#item-contact:hover{
+    transform: translateX(-5px);
+
+}
+
+#item-more{
+    background-color: #50217C;
+    border-radius: 20px;
+    position: relative;
+    left: -160px;
+}
+#item-more:hover{
+    transform: translateX(-5px);
+
+}
+
+.selected {
+    width: 1000px;
+    height: 300px;
+    z-index: 1000;
+    border-radius: 20px;
+
+}
+.close-btn{
+    display: none;
+}
