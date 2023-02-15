@@ -9,21 +9,26 @@
 </head>
 <body>
     <div id = "sidebar-container">
+        <span class="toggle" id="icon-toggle">
+            <img  src="Assets/Back arrow.svg">
+        </span>
+        
         <ul id = "sidebar-items">
-            <li class="sidebar-item selected">
-                Search
+            <li class="sidebar-item selected" id="item-home">
+               <img src="Assets/home.svg"/> <span>Home</span>
             </li>
-            <li class="sidebar-item">
-                Home
+            <li class="sidebar-item" id="item-search">
+                <img src="Assets/search.svg"/> <span>Search</span>
             </li>
-            <li class="sidebar-item">
-                user
+           
+            <li class="sidebar-item" id="item-user">
+                <img src="Assets/user.svg"/> <span>User</span>
             </li>
-            <li class="sidebar-item">
-                Extras
+            <li class="sidebar-item" id="item-extras">
+                <img src="Assets/wallet.svg"/> <span>wallet</span>
             </li>
         </ul>
     </div>
-    <script href = "main.js"></script>
+    <script src = "main.js"></script>
 </body>
 </html>
